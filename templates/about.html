@@ -1,0 +1,63 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'app\css\style.css' %}"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'app\media\favicon.ico' %}" type="image/x-icon"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>FuGaS_ViToHa</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="{% static 'app\media\logo.png' %}" class="logo">
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:8000/mods">Моды</a>
+                    <a href="http://127.0.0.1:8000/resourcepacks">Ресурспаки</a>
+                    <a href="http://127.0.0.1:8000/skins">Скины</a>
+                    <a href="http://127.0.0.1:8000/about">Обо Мне</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="col2">
+            <h1>На этой странице вы можете узнать немного обо мне!</h1>
+            <p class="about2">Витошко Иван Александрович (FuGaS_ViToHa)<br>Возраст: 15 лет<br>
+                Навыки:<br>
+                - Программирование: Python (уровень продвинутый)<br>
+                - Веб-разработка: HTML, CSS, Django<br>
+                - Работа с базами данных: SQLite<br>
+                - Игры: Minecraft (опыт игры и знание механик игры)<br>
+                
+                Проекты:<br>
+                - Создание веб-приложения с использованием Django и базы данных SQLite.<br>
+                - Разработка и настройка пользовательского интерфейса с использованием HTML и CSS.<br>
+                - Автоматизация задач с использованием Python.<br>
+                
+                Дополнительные навыки:<br>
+                - Отличные коммуникативные и организационные навыки.<br>
+                - Способность работать в команде и эффективно управлять временем.<br>
+                - Быстрое обучение и адаптация к новым технологиям и задачам.<br>
+                - Усидчивость, ответственность и стремление к постоянному развитию.<br>
+                
+                Цели:<br>
+                - Получить дополнительный опыт работы в области веб-разработки и программирования.<br>
+                - Развивать навыки и знания в IT-сфере.<br>
+                - Принести пользу и внести вклад в проекты, в которых применяются мои навыки.<br>
+                
+                Хобби и интересы:<br>
+                - Игра в Minecraft, что развивает креативное мышление и логическое мышление.<br>
+                - Изучение новых технологий и языков программирования.<br>
+                - Участие в соревнованиях и хакатонах по программированию.</p>
+            <div class="row">
+            <div class="col">
+                <img src="{% static 'app\media\main2.png' %}" class="feature-img2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

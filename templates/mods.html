@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'app\css\style.css' %}"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'app\media\favicon.ico' %}" type="image/x-icon"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>FuGaS_ViToHa</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="{% static 'app\media\logo.png' %}" class="logo">
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:8000/mods">Моды</a>
+                    <a href="http://127.0.0.1:8000/resourcepacks">Ресурспаки</a>
+                    <a href="http://127.0.0.1:8000/skins">Скины</a>
+                    <a href="http://127.0.0.1:8000/about">Обо Мне</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="col3">
+            <h1>Здесь вы можете скачать все мои моды на Bedwars!</h1>
+            <p class="p1">1. Keystrokes Mod<br>
+             Мод позволяющий выводить на экран информацию:<br>
+            -Клавиатуре (клавишах которые вы жмёте)<br>
+            -CPS<br>
+            -FPS<br>
+            <a target="_blank" href="https://www.mediafire.com/file/l4f4oex65wv6159/%255B1.8.9%255D%252BLunar%252BKyestrokes%252BV2.jar/file" class="keystrokes">Скачать мод</a>
+            <p class="p2">2. The 5zigMod by TheLiryz<br>
+            Мод похожий на предыдущий, но больший по функционалу:<br>
+            <a target="_blank" href="https://www.mediafire.com/file/rbjgxl80xjbvdcm/The_5zig_Mod_v3.9.20_for_Minecraft_1.8.9_%25281%2529.jar/file" class="zig">Скачать мод</a>
+            <p class="p3">3. Timechanger<br>
+            Мод позволяющий менять день и ночь на серверах (только у себя)<br>
+            <a target="_blank" href="https://www.mediafire.com/file/i84qur8ebarmgvs/TimeChanger_1.8.jar/file" class="time">Скачать мод</a>
+            <p class="p4">4. FastChat<br>
+            Мод позволяющий делать чат прозрачным на ранних версиях<br>
+            <a target="_blank" href="https://www.mediafire.com/file/dezqhp830frz1us/FastChat-1.0.jar/file" class="chat">Скачать мод</a>
+    </div>
+</body>
+</html>
